@@ -38,7 +38,7 @@
   "custom/lightdarkmode": {
     "exec": "python ~/.config/waybar/scripts/darklightmode/getmode.py",
     "interval": 1,
-    "on-click": "sleep 0.1 && python ~.config/waybar/scripts/darklightmode/togglemode.py",
+    "on-click": "sleep 0.1 && python ~/.config/waybar/scripts/darklightmode/togglemode.py",
     "tooltip": false,
     "tooltip-format": "Toggle Mode"
   },
