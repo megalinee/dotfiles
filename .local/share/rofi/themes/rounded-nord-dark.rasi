@@ -1,0 +1,26 @@
+/*******************************************************************************
+ * ROUNDED THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+    bg0:    #0f000fE5;
+    bg1:    #DB94ABE5;
+    bg2:    #23002EE5;
+    bg3:    #23002EE5;
+    fg0:    #D8DEE9;
+    fg1:    #ECEFF4;
+    fg2:    #D8DEE9;
+    fg3:    #4C566A;
+}
+
+@import "rounded-common.rasi"
+
+element selected {
+    text-color: @bg1;
+}
+
+#textbox-prompt-colon {
+        content: "here-your-prompt";
+}
