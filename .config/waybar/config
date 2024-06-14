@@ -124,9 +124,10 @@
     "format": "{icon}",
     "tooltip-format": "{volume}%",
     "format-muted": " ",
+    "scroll-step": 2,
     "restart-interval": 0,
     "on-click": "pactl set-sink-mute $(pactl get-default-sink) toggle",
-    "format-icons": ["", "", "", " ", " "]
+    "format-icons": [" ", " ", " ", " ", " "]
   },
 
   "network": {
