@@ -88,7 +88,7 @@ tooltip {
 
 #tray{
     background-color: rgba(0, 0, 0, 0.118);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 2px 5px;
 }
 
