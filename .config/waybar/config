@@ -15,23 +15,24 @@
 
   "reload_style_on_change": true,
 
-  "modules-left": [
-    "hyprland/workspaces",
-    "network",
-    "custom/lights",
-    "wireplumber",
-    "custom/lightdarkmode"
-  ],
-  "modules-center": ["hyprland/window"],
-  "modules-right": [
-    "custom/media",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": [
     "custom/space",
     "custom/seperator",
     "custom/space",
     "clock#date",
-    "custom/space",
+    "custom/dotseperator",
     "clock#time",
     "custom/space",
+    "custom/seperator",
+    "custom/space"
+  ],
+  "modules-right": [
+    "custom/media",
+    "network",
+    "custom/lights",
+    "wireplumber",
+    "custom/lightdarkmode",
     "image#powermenu"
   ],
 
@@ -46,6 +47,12 @@
   "custom/seperator": {
     "tooltip": true,
     "format": "🪷",
+    "tooltip-format": "pretty :))"
+  },
+
+  "custom/dotseperator": {
+    "tooltip": true,
+    "format": "・",
     "tooltip-format": "pretty :))"
   },
 
