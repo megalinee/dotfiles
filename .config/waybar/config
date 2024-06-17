@@ -17,22 +17,26 @@
 
   "modules-left": ["hyprland/workspaces"],
   "modules-center": [
-    "custom/space",
-    "custom/seperator",
-    "custom/space",
+    "custom/buttonspace",
     "clock#date",
-    "custom/dotseperator",
+    "custom/buttonspace",
+    "custom/wiltedrose",
+    "custom/buttonspace",
     "clock#time",
-    "custom/space",
-    "custom/seperator",
-    "custom/space"
+    "custom/buttonspace"
   ],
   "modules-right": [
     "custom/media",
+    "custom/buttonspace",
+    "wireplumber",
+    "custom/audiooutputtoggle",
+    "custom/buttonspace",
+    "custom/seperator",
+    "custom/buttonspace",
+    "custom/lightdarkmode",
     "network",
     "custom/lights",
-    "wireplumber",
-    "custom/lightdarkmode",
+    "custom/buttonspace",
     "image#powermenu"
   ],
 
@@ -44,15 +48,33 @@
     "tooltip-format": "Toggle Mode"
   },
 
+  "custom/audiooutputtoggle": {
+    "exec": "python ~/.config/waybar/scripts/audiooutputtoggle/getmode.py",
+    "interval": 1,
+    "on-click": "sleep 0.1 && python ~/.config/waybar/scripts/audiooutputtoggle/togglemode.py",
+    "tooltip": false,
+    "tooltip-format": "Toggle Device"
+  },
+
   "custom/seperator": {
     "tooltip": true,
     "format": "🪷",
     "tooltip-format": "pretty :))"
   },
+  "custom/rose": {
+    "tooltip": true,
+    "format": "🌷",
+    "tooltip-format": ":o"
+  },
+  "custom/wiltedrose": {
+    "tooltip": true,
+    "format": "🥀",
+    "tooltip-format": "CUTE!!!"
+  },
 
   "custom/dotseperator": {
     "tooltip": true,
-    "format": "・",
+    "format": "•",
     "tooltip-format": "pretty :))"
   },
 
@@ -72,6 +94,16 @@
   },
 
   "custom/space": {
+    "tooltip": false,
+    "format": " "
+  },
+
+  "custom/buttonspace": {
+    "tooltip": false,
+    "format": "‎"
+  },
+
+  "custom/smallspace": {
     "tooltip": false,
     "format": " "
   },
@@ -130,11 +162,11 @@
   "wireplumber": {
     "format": "{icon}",
     "tooltip-format": "{volume}%",
-    "format-muted": " ",
+    "format-muted": "",
     "scroll-step": 2,
     "restart-interval": 0,
     "on-click": "pactl set-sink-mute $(pactl get-default-sink) toggle",
-    "format-icons": [" ", " ", " ", " ", " "]
+    "format-icons": ["", "", "", "", ""]
   },
 
   "network": {

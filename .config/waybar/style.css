@@ -71,11 +71,14 @@ tooltip {
 #window, #custom-media {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 7px;
-    padding: 0px 0px;
 }
 
 #custom-lightdarkmode {
-    padding-right: 7px;
+    padding-right: 0px;
+}
+
+#custom-audiooutputtoggle {
+    padding-right: 1px;
 }
 
 #custom-dotseperator {
@@ -94,26 +97,35 @@ tooltip {
     font-weight: 600
 }
 
-#wireplumber, #custom-lights, #network, #custom-lightdarkmode {
-    margin-left: 7px;
-    margin-right: 7px;
+#custom-audiooutputtoggle, #wireplumber, #custom-lights, #network, #custom-lightdarkmode {
+    margin-left: 6px;
+    margin-right: 6px;
 }
+
+#custom-buttonspace {
+    margin-left: 3px;
+}
+
 
 #wireplumber {
     font-size: 16;
+    padding-right: 9px;
 }
 
 #custom-seperator {
-    font-size: 30;
+    font-size: 28;
 }
 
 #custom-space {
     font-size: 10;
 }
 
+#custom-smallspace {
+    font-size: 5;
+}
 
 #network {
-    padding-right: 6px;
+    padding-right: 8px;
 }
 
 
