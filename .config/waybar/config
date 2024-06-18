@@ -20,7 +20,7 @@
     "custom/buttonspace",
     "clock#date",
     "custom/buttonspace",
-    "custom/wiltedrose",
+    "custom/seperator",
     "custom/buttonspace",
     "clock#time",
     "custom/buttonspace"
@@ -30,9 +30,7 @@
     "custom/buttonspace",
     "wireplumber",
     "custom/audiooutputtoggle",
-    "custom/buttonspace",
-    "custom/seperator",
-    "custom/buttonspace",
+    "custom/lineseperator",
     "custom/lightdarkmode",
     "network",
     "custom/lights",
@@ -73,9 +71,11 @@
   },
 
   "custom/dotseperator": {
-    "tooltip": true,
-    "format": "•",
-    "tooltip-format": "pretty :))"
+    "format": "•"
+  },
+
+  "custom/lineseperator": {
+    "format": "|"
   },
 
   "image#powermenu": {

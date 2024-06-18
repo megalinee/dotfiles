@@ -7,7 +7,7 @@
         "transparent.theme.css"
     ],
     "enableReactDevtools": false,
-    "frameless": true,
+    "frameless": false,
     "transparent": true,
     "winCtrlQ": false,
     "disableMinSize": false,
@@ -59,9 +59,6 @@
             "enabled": false
         },
         "BANger": {
-            "enabled": false
-        },
-        "BetterFolders": {
             "enabled": false
         },
         "BetterGifAltText": {
@@ -130,9 +127,6 @@
         "Dearrow": {
             "enabled": false
         },
-        "Decor": {
-            "enabled": false
-        },
         "DisableCallIdle": {
             "enabled": false
         },
@@ -193,9 +187,6 @@
         "iLoveSpam": {
             "enabled": false
         },
-        "IgnoreActivities": {
-            "enabled": false
-        },
         "ImageLink": {
             "enabled": false
         },
@@ -232,9 +223,6 @@
         "MessageLinkEmbeds": {
             "enabled": false
         },
-        "MessageLogger": {
-            "enabled": false
-        },
         "MessageTags": {
             "enabled": false
         },
@@ -244,9 +232,6 @@
         "MoreKaomoji": {
             "enabled": false
         },
-        "MoreUserTags": {
-            "enabled": false
-        },
         "Moyai": {
             "enabled": false
         },
@@ -254,9 +239,6 @@
             "enabled": false
         },
         "NewGuildSettings": {
-            "enabled": false
-        },
-        "NoBlockedMessages": {
             "enabled": false
         },
         "NoDefaultHangStatus": {
@@ -272,9 +254,6 @@
             "enabled": false
         },
         "NoOnboardingDelay": {
-            "enabled": false
-        },
-        "NoPendingCount": {
             "enabled": false
         },
         "NoProfileThemes": {
@@ -409,9 +388,6 @@
         "ShowConnections": {
             "enabled": false
         },
-        "ShowHiddenChannels": {
-            "enabled": false
-        },
         "ShowHiddenThings": {
             "enabled": false
         },
@@ -541,6 +517,30 @@
             "enabled": false,
             "settingsLocation": "aboveNitro"
         },
+        "BetterFolders": {
+            "enabled": false
+        },
+        "Decor": {
+            "enabled": false
+        },
+        "IgnoreActivities": {
+            "enabled": false
+        },
+        "MessageLogger": {
+            "enabled": false
+        },
+        "MoreUserTags": {
+            "enabled": false
+        },
+        "NoBlockedMessages": {
+            "enabled": false
+        },
+        "NoPendingCount": {
+            "enabled": false
+        },
+        "ShowHiddenChannels": {
+            "enabled": false
+        },
         "SupportHelper": {
             "enabled": false
         }
@@ -555,6 +555,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1718203096717
+        "settingsSyncVersion": 1718697220067
     }
 }

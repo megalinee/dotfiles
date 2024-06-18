@@ -110,7 +110,7 @@ if [ "$(tty)" = "/dev/tty1" ];then
 fi
 
 if [[ $TERM == "xterm-kitty" ]]; then
-  neofetch
+  fastfetch
 else
   :
 fi
