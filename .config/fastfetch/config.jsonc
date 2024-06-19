@@ -34,80 +34,80 @@
             "format": "{#97}------------"
         },
         {
-            "key": "󰣇 OS           ",
-            "keyColor": "91",
+            "key": "󰣇 {#91}OS           ",
+            "keyColor": "97",
             "type": "os"
         },
         {
-            "key": "󰌢 Machine      ",
-            "keyColor": "91",
+            "key": "󰌢 {#91}Machine      ",
+            "keyColor": "97",
             "type": "host"
         },
         {
-            "key": " Kernel       ",
-            "keyColor": "91",
+            "key": " {#91}Kernel       ",
+            "keyColor": "97",
             "type": "kernel"
         },
         {
-            "key": "󰅐 Uptime       ",
-            "keyColor": "91",
+            "key": "󰅐 {#91}Uptime       ",
+            "keyColor": "97",
             "type": "uptime"
         },
         {
-            "key": "󰏖 Packages     ",
-            "keyColor": "91",
+            "key": "󰏖 {#91}Packages     ",
+            "keyColor": "97",
             "disabled": [
                 "flatpak"
             ],
             "type": "packages"
         },
         {
-            "key": "󰍹 Resolution   ",
-            "keyColor": "91",
+            "key": "󰍹 {#91}Resolution   ",
+            "keyColor": "97",
             "type": "display",
             "compactType": "original-with-refresh-rate"
         },
         {
-            "key": " WM           ",
-            "keyColor": "91",
+            "key": " {#91}WM           ",
+            "keyColor": "97",
             "type": "wm"
         },
         {
-            "key": " DE           ",
-            "keyColor": "91",
+            "key": " {#91}DE           ",
+            "keyColor": "97",
             "type": "de"
         },
         {
-            "key": " Shell        ",
-            "keyColor": "91",
+            "key": " {#91}Shell        ",
+            "keyColor": "97",
             "type": "shell"
         },
         {
-            "key": " Terminal     ",
-            "keyColor": "91",
+            "key": " {#91}Terminal     ",
+            "keyColor": "97",
             "type": "terminal"
         },
         {
-            "key": "󰻠 CPU          ",
-            "keyColor": "91",
+            "key": "󰻠 {#91}CPU          ",
+            "keyColor": "97",
             "format": "11th Gen Intel Core i7-11700KF @ 5.00 GHz",
             "type": "custom"
         },
         {
-            "key": "󰍛 GPU          ",
-            "keyColor": "91",
+            "key": "󰍛 {#91}GPU          ",
+            "keyColor": "97",
             "format": "{1} {2}",
             "type": "gpu"
         },
         {
-            "key": "󰑭 Memory       ",
-            "keyColor": "91",
+            "key": "󰑭 {#91}Memory       ",
+            "keyColor": "97",
             "format": "{1} / {2}",
             "type": "memory"
         },
         {
-            "key": "󰩟 Local IP     ",
-            "keyColor": "91",
+            "key": "󰩟 {#91}Local IP     ",
+            "keyColor": "97",
             "type": "localip",
             "compact": true
         },
