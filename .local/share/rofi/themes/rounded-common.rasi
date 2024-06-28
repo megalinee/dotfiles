@@ -18,14 +18,14 @@
 window {
     location:       center;
     width:          480;
+    border: 3px;
     border-radius:  10px;
-    border-color:       @bg3;
+    border-color:        rgba(145, 0, 135, 0.4);
 
 
     y-offset: -150px;
     
-    background-image:   linear-gradient(315deg, rgba(74, 0, 68, 0.9), rgba(38, 0, 56, 0.9));
-    
+    background-color:  rgba(15, 0, 15, 0.8);
     order-color:       @bg3;
 }
 
@@ -38,7 +38,7 @@ inputbar {
     border-color:       @bg3;
 
     //border:         4px;
-    border-radius:  10px;
+    border-radius:  7px;
 
     padding:    8px 16px;
     spacing:    8px;
@@ -47,12 +47,12 @@ inputbar {
 
 prompt {
     enabled: false;
-    text-color: #edc2ff;
+    text-color: @bg1;
 }
 
 entry {
     placeholder:        "Search 🌸";
-    text-color: #edc2ff;
+    text-color: @bg1;
 }
 
 message {
@@ -87,7 +87,7 @@ element normal active {
 }
 
 element selected normal, element selected active {
-    background-image:   linear-gradient(80deg, rgba(255, 163, 220, 0.2), rgba(255, 140, 217, 0.2));
+    background-image:   linear-gradient(80deg, rgba(255, 125, 217, 0.4), rgba(255, 140, 217, 0.4));
     
 }
 

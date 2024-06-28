@@ -6,8 +6,8 @@
 
 * {
     bg0:    #0f000fE5;
-    bg1:    #DB94ABE5;
-    bg2:    #23002EE5;
+    bg1:    #8a1e5dE5;
+    bg2:    #fec9ffE5;
     bg3:    #23002EE5;
     fg0:    #D8DEE9;
     fg1:    #ECEFF4;
@@ -18,7 +18,7 @@
 @import "rounded-common.rasi"
 
 element selected {
-    text-color: @bg1;
+    text-color: @bg2;
 }
 
 #textbox-prompt-colon {

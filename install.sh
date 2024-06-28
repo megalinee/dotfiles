@@ -63,10 +63,10 @@ yay -S vesktop --noconfirm
 yay -S visual-studio-code-bin --noconfirm
 yay -S cava --noconfirm
 yay -S cli-visualizer --noconfirm
+yay -S bemoji --noconfirm
 
 # Symlink all dotfiles
 sh -c "cd $script_dir && stow ."
 
 # Celebration!!!! and update all again
 yay --noconfirm
-
