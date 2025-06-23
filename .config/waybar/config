@@ -90,7 +90,7 @@
     "tooltip": true,
     "tooltip-format": "Light Control",
     "format": "󰌵",
-    "on-click": "rofi -modes mymenu:\"~/.config/waybar/.venv/bin/python .config/waybar/scripts/hue.py\" -show mymenu -show-icons"
+    "on-click": "rofi -modes mymenu:\"~/.config/waybar/scripts/hue/bin/python .config/waybar/scripts/hue.py\" -show mymenu -show-icons"
   },
 
   "custom/space": {
@@ -170,7 +170,7 @@
   },
 
   "network": {
-    "interface": "enp5s0",
+    "interface": "enp8s0",
     "interval": 2,
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
     "format": "Error",
@@ -212,7 +212,7 @@
     "interval": 10
   },
   "custom/media": {
-    "format": "{icon} {} ",
+    "format": "{icon} {text} ",
     "escape": true,
     "return-type": "json",
     "max-length": 40,

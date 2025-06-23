@@ -90,8 +90,7 @@
         {
             "key": "󰻠 {#91}CPU          ",
             "keyColor": "97",
-            "format": "11th Gen Intel Core i7-11700KF @ 5.00 GHz",
-            "type": "custom"
+            "type": "cpu"
         },
         {
             "key": "󰍛 {#91}GPU          ",

@@ -13,8 +13,7 @@ lightOffSymbol = "󰌶"
 #Hue API
 hueRoomName = "Bedroom"
 hueIP = "192.168.1.249"
-hueUsername = "l-Q46qPuoWER6jcKRIh0DXvMJsX0m7tUOpQDwnPE" # Use following curl command to retrieve: curl --request POST --data '{"devicetype":"linux#huebar", "generateclientkey":true}' https://<Hue IP>/api -k
-
+hueUsername = "UxlrOXQ-NLpithjFxjF0rmjw52jH6A8CBXL48FIy"
 
 hueURL = 'https://' + hueIP + '/clip/v2/resource'
 
