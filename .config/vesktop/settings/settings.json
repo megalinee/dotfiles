@@ -1,7 +1,7 @@
 {
     "autoUpdate": true,
     "autoUpdateNotification": true,
-    "useQuickCss": true,
+    "useQuickCss": false,
     "themeLinks": [
         "if [ \"$color_prompt\" = yes ]; then",
         "PS1='${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ '",
@@ -54,7 +54,7 @@
     ],
     "enableReactDevtools": false,
     "frameless": false,
-    "transparent": true,
+    "transparent": false,
     "winCtrlQ": false,
     "disableMinSize": false,
     "winNativeTitleBar": false,
@@ -649,7 +649,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1750568763032
+        "settingsSyncVersion": 1750690314063
     },
     "eagerPatches": false
 }

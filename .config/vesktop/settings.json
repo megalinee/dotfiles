@@ -3,5 +3,7 @@
     "discordBranch": "stable",
     "arRPC": true,
     "splashColor": "rgb(220, 221, 222)",
-    "splashBackground": "rgb(32, 32, 36)"
+    "splashBackground": "rgb(32, 32, 36)",
+    "hardwareAcceleration": true,
+    "hardwareVideoAcceleration": true
 }
