@@ -1,1 +1,3 @@
 colors.scheme=pink
+visualizer.ellipse.radius=01
+visualizer.fps=60
