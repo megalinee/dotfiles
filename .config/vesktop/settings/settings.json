@@ -5,11 +5,10 @@
     "themeLinks": [],
     "enabledThemes": [
         "ClearVision-v7-Amber-Vencord.css",
-        "discord-mica.theme.css",
-        "noctis-viola.theme.css"
+        "HyprNoon.css"
     ],
-    "enableReactDevtools": true,
-    "frameless": false,
+    "enableReactDevtools": false,
+    "frameless": true,
     "transparent": true,
     "winCtrlQ": false,
     "disableMinSize": false,
@@ -605,7 +604,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1750879864178
+        "settingsSyncVersion": 1750898688963
     },
     "eagerPatches": false
 }
