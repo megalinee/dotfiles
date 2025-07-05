@@ -1,20 +1,24 @@
 return {
-    "nvim-neo-tree/neo-tree.nvim",
-    opts = {
-      filesystem = {
-        filtered_items = {
-       visible = true,
-       show_hidden_count = true,
-       hide_dotfiles = false,
-       hide_gitignored = true,
-       hide_by_name = {
-         -- '.git',
-         -- '.DS_Store',
-         -- 'thumbs.db',
-       },
-      never_show = {},
+  "folke/snacks.nvim",
+  ---@type snacks.Config
+  opts = {
+    explorer = {
+      -- your explorer configuration comes here
+      -- or leave it empty to use the default settings
+      -- refer to the configuration section below
+    },
+    picker = {
+      hidden = true,
+      ignored = true,
+      sources = {
+        files = {
+          hidden = true,
+          ignored = true,
+          -- exclude = {
+          -- "**/.git/*",
+          --},
         },
-      }
-    }
-  }
-  
+      },
+    },
+  },
+}
