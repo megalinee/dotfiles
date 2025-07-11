@@ -4,3 +4,4 @@
 vim.api.nvim_set_hl(0, "SnacksPickerDir", { fg = "#A8A1BE" })
 vim.opt.relativenumber = false
 vim.api.nvim_set_hl(0, "SnacksPickerPathHidden", { fg = "#A8A1BE" })
+vim.opt.list = false
