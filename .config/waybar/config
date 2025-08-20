@@ -31,12 +31,29 @@
     "wireplumber",
     "custom/audiooutputtoggle",
     "custom/lineseperator",
+    "group/internet",
     "custom/lightdarkmode",
-    "network",
     "custom/lights",
     "custom/buttonspace",
     "image#powermenu"
   ],
+  
+  "group/internet":{
+      "orientation": "horizontal",
+      "modules": [
+        "custom/vpn",
+        "network",
+      ]
+    },
+  
+  "custom/vpn": {
+    "tooltip-format": "Toggle VPN",
+    "interval": 3,
+    "format": "{}",
+    "exec": "nmcli con | grep -qF 'wireguard  --' && echo ' '  || echo ' '",
+    "max-length": "100",
+    "on-click": "nmcli con | grep -qF 'wireguard  --' && nmcli connection up us-dal-wg-001 || nmcli connection down us-dal-wg-001",
+  },
 
   "custom/lightdarkmode": {
     "exec": "python ~/.config/waybar/scripts/darklightmode/getmode.py",

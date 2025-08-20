@@ -22,7 +22,7 @@
     "modules": [
         {
             "type": "title",
-            "format": " {6}{7}{8}",
+            "format": "{6}{7}{8}",
             "color": {
                 "user": "92",
                 "at": "97",
@@ -31,7 +31,7 @@
         },
         {
             "type": "custom",
-            "format": "{#97}------------"
+            "format": "{#97}"
         },
         {
             "key": "󰣇 {#91}OS           ",

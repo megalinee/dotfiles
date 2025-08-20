@@ -116,3 +116,6 @@ fi
 PS1='🌸 \[\e[38;5;210m\]\u\[\e[0m\] ➔ \[\e[38;5;174m\]\W\[\e[0m\] ➤ '
 alias clock='tty-clock -C 1 -c'
 alias syncdot='sh -c "cd $HOME/dotfiles && stow ."'
+
+# Created by `pipx` on 2025-07-31 19:32:56
+export PATH="$PATH:/home/murad/.local/bin"
