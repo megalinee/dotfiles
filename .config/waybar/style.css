@@ -12,24 +12,22 @@ tooltip {
 }
 
 .modules-left {
-    background: linear-gradient(315deg, rgba(145, 0, 135, 0.4), rgba(79, 0, 116, 0.6));
+    background: linear-gradient(315deg, rgba(45, 0, 69, 0.4), rgba(20, 0, 37, 0.6));
     border-radius: 10px;
     padding: 3px;
 }
 
 .modules-center {
-    background: linear-gradient(180deg, rgba(145, 0, 135, 0.4), rgba(79, 0, 116, 0.6));
+    background: rgba(45, 0, 69, 0.4);
     border-radius: 10px;
     padding: 3px;
 }
 
 .modules-right {
-    background: linear-gradient(45deg, rgba(145, 0, 135, 0.4), rgba(79, 0, 116, 0.6));
+    background: linear-gradient(45deg, rgba(45, 0, 69, 0.4), rgba(20, 0, 37, 0.6));
     border-radius: 10px;
     padding: 3px;
 }
-
-
 
 #image.powermenu {
     background-color: rgba(0, 0, 0, 0.3);
@@ -48,20 +46,14 @@ tooltip {
   padding-right: 5px;
 }
 
-#workspaces {
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 7px;
-    padding: 0 5px;
-}
-
 #workspaces button {
-    color: rgb(136, 136, 136);
     font-size: 1.2rem;
     padding: 0 0.3rem 0 0;
 }
 
 #workspaces button:hover {
-    background-color: rgba(0, 0, 0, 1);
+    color: rgba(180, 108, 217, 1);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #workspaces button.special {
@@ -70,7 +62,7 @@ tooltip {
 }
 
 #workspaces button.active {
-    color: #a752df;
+    color: rgb(193, 147, 217);
 }
 
 #workspaces button.urgent {
