@@ -7,8 +7,8 @@
   "height": 40,
 
   "margin-top": 10,
-  "margin-left": 18,
-  "margin-right": 18,
+  "margin-left": 10,
+  "margin-right": 10,
   "margin-bottom": 0,
   "spacing": 3,
   "output": ["DP-1", "DP-2"],
